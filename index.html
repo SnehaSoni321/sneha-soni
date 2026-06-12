@@ -4,38 +4,81 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Sneha Soni | Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
-<nav>
-  <div class="nav-logo">&lt;sneha /&gt;</div>
-  <div class="nav-links">
-    <a href="#hero">Home</a>
-    <a href="#what-i-do">Work</a>
-    <a href="#projects">Projects</a>
-    <a href="#certifications">Certs</a>
-    <a href="#skills">Skills</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
+<nav class="site-nav">
+  <div class="nav-shell">
+    <a class="nav-logo" href="#hero">&lt;sneha /&gt;</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <div class="nav-links" id="navLinks">
+      <a href="#hero">Home</a>
+      <a href="#what-i-do">Work</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certs</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <button class="theme-toggle" id="themeBtn" title="Toggle theme" aria-label="Toggle theme">🌙</button>
   </div>
-  <button class="theme-toggle" id="themeBtn" title="Toggle theme">🌙</button>
 </nav>
 
 <!-- HERO -->
 <section id="hero">
   <div class="grid-bg"></div>
   <div class="grid-fade"></div>
-  <div class="hero-content">
-    <p class="hero-greeting">👋 &nbsp;Hi there, I'm</p>
-    <h1 class="hero-name">Sneha <span>Soni</span></h1>
-    <p class="hero-type"><span id="typed-text"></span><span class="cursor"></span></p>
-    <p class="hero-desc">B.Tech student turning ideas into responsive web experiences — one line of code at a time.</p>
-    <div class="hero-btns">
-      <a href="#projects" class="btn btn-primary"><i class="fas fa-folder-open"></i> See My Work</a>
-      <a href="#contact" class="btn btn-outline"><i class="fas fa-envelope"></i> Contact Me</a>
+  <div class="hero-content container">
+    <div class="hero-copy">
+      <p class="hero-greeting">👋 Hi there, I’m</p>
+      <h1 class="hero-name">Sneha <span>Soni</span></h1>
+      <p class="hero-type"><span id="typed-text"></span><span class="cursor"></span></p>
+      <p class="hero-desc">B.Tech student crafting polished, responsive web experiences with a focus on clean UI, practical frontend engineering, and thoughtful interactions.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary"><i class="fas fa-folder-open"></i> View Projects</a>
+        <a href="#contact" class="btn btn-outline"><i class="fas fa-envelope"></i> Contact Me</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-chip">
+          <strong>4+</strong>
+          <span>projects shipped</span>
+        </div>
+        <div class="stat-chip">
+          <strong>1</strong>
+          <span>internship completed</span>
+        </div>
+        <div class="stat-chip">
+          <strong>5+</strong>
+          <span>certifications earned</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-panel">
+      <div class="hero-card">
+        <div class="hero-card-top">
+          <span class="status-dot"></span>
+          <span>Available for internships</span>
+        </div>
+        <img class="hero-avatar" src="image.jpeg" alt="Sneha Soni profile photo" />
+        <div class="hero-card-body">
+          <p class="hero-card-label">Currently focused on</p>
+          <h2>Modern Frontend Design</h2>
+          <p>Building interfaces that feel refined, fast, and easy to use across devices.</p>
+        </div>
+        <div class="hero-card-tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>Java</span>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -95,7 +138,6 @@
       <p class="skills-group-title">// Languages</p>
       <div class="skills-tags">
         <div class="skill-tag"><i class="fab fa-java"></i> Java</div>
-        
         <div class="skill-tag"><i class="fas fa-database"></i> MySQL</div>
       </div>
     </div>
@@ -232,7 +274,6 @@
   <div class="container">
     <p class="section-label">About Me</p>
     <h2 class="section-title">Who I Am</h2>
-  
     <div class="about-grid">
       <div class="about-avatar-wrap">
         <img class="about-avatar" src="image.jpeg" alt="Sneha Soni" />
@@ -242,6 +283,29 @@
         <p>Currently exploring <strong>HTML, CSS, JavaScript, Java</strong>, and diving deeper into <strong>Data Structures & Algorithms</strong>. I've completed an internship at <strong>Oasis Infobyte</strong> under the AICTE OIB-SIP program where I got real frontend experience.</p>
         <p>When I'm not coding, I'm exploring open source and trying to grow as a developer every single day. I'm actively looking for <strong>internship and entry-level opportunities</strong>!</p>
         <a href="#contact" class="about-resume"><i class="fas fa-download"></i> Download Resume</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HIGHLIGHTS -->
+<section id="highlights">
+  <div class="container">
+    <div class="highlights-grid">
+      <div class="highlight-card accent-card">
+        <p class="highlight-label">Focus</p>
+        <h3>Modern interfaces with strong visual hierarchy</h3>
+        <p>Designing layouts that communicate clearly and feel polished at first glance.</p>
+      </div>
+      <div class="highlight-card">
+        <p class="highlight-label">Experience</p>
+        <h3>Internship-backed frontend practice</h3>
+        <p>Hands-on project work from OIBSIP and portfolio-based learning.</p>
+      </div>
+      <div class="highlight-card">
+        <p class="highlight-label">Growth</p>
+        <h3>Actively learning DSA and React</h3>
+        <p>Continuing to build deeper problem-solving and component-based skills.</p>
       </div>
     </div>
   </div>
