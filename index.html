@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sneha Soni | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo">&lt;sneha /&gt;</div>
+  <div class="nav-links">
+    <a href="#hero">Home</a>
+    <a href="#what-i-do">Work</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certs</a>
+    <a href="#skills">Skills</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <button class="theme-toggle" id="themeBtn" title="Toggle theme">🌙</button>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="grid-bg"></div>
+  <div class="grid-fade"></div>
+  <div class="hero-content">
+    <p class="hero-greeting">👋 &nbsp;Hi there, I'm</p>
+    <h1 class="hero-name">Sneha <span>Soni</span></h1>
+    <p class="hero-type"><span id="typed-text"></span><span class="cursor"></span></p>
+    <p class="hero-desc">B.Tech student turning ideas into responsive web experiences — one line of code at a time.</p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn btn-primary"><i class="fas fa-folder-open"></i> See My Work</a>
+      <a href="#contact" class="btn btn-outline"><i class="fas fa-envelope"></i> Contact Me</a>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT I DO -->
+<section id="what-i-do">
+  <div class="container">
+    <p class="section-label">What I Do</p>
+    <h2 class="section-title">My Expertise</h2>
+    <p class="section-sub">Specialized in frontend development with a strong foundation in web technologies.</p>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon"><i class="fas fa-code"></i></div>
+        <div class="service-tag">UI/UX</div>
+        <h3>Frontend Development</h3>
+        <p>Building responsive, user-friendly interfaces with HTML, CSS & JavaScript.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+        <div class="service-tag">Design</div>
+        <h3>Web Design</h3>
+        <p>Clean, modern layouts using responsive design principles and best practices.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="fab fa-js-square"></i></div>
+        <div class="service-tag">Logic</div>
+        <h3>JavaScript Apps</h3>
+        <p>Interactive web applications with DOM manipulation and basic JS logic.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="fas fa-terminal"></i></div>
+        <div class="service-tag">Tools</div>
+        <h3>Version Control</h3>
+        <p>Managing projects with Git & GitHub — commits, branches, and deployment.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <p class="section-label">Skills & Technologies</p>
+    <h2 class="section-title">What I Work With</h2>
+    <p class="section-sub">Technologies and tools I use on a regular basis.</p>
+    <div class="divider"></div>
+    <div class="skills-group">
+      <p class="skills-group-title">// Frontend</p>
+      <div class="skills-tags">
+        <div class="skill-tag"><i class="fab fa-html5"></i> HTML5</div>
+        <div class="skill-tag"><i class="fab fa-css3-alt"></i> CSS3</div>
+        <div class="skill-tag"><i class="fab fa-js"></i> JavaScript</div>
+        <div class="skill-tag"><i class="fas fa-mobile-alt"></i> Responsive Design</div>
+      </div>
+    </div>
+    <div class="skills-group">
+      <p class="skills-group-title">// Languages</p>
+      <div class="skills-tags">
+        <div class="skill-tag"><i class="fab fa-java"></i> Java</div>
+        
+        <div class="skill-tag"><i class="fas fa-database"></i> MySQL</div>
+      </div>
+    </div>
+    <div class="skills-group">
+      <p class="skills-group-title">// Tools & DevOps</p>
+      <div class="skills-tags">
+        <div class="skill-tag"><i class="fab fa-git-alt"></i> Git</div>
+        <div class="skill-tag"><i class="fab fa-github"></i> GitHub</div>
+        <div class="skill-tag"><i class="fas fa-code"></i> VS Code</div>
+        <div class="skill-tag"><i class="fab fa-github"></i> GitHub Pages</div>
+      </div>
+    </div>
+    <div class="skills-group">
+      <p class="skills-group-title">// Currently Learning</p>
+      <div class="skills-tags">
+        <div class="skill-tag"><i class="fas fa-seedling"></i> DSA</div>
+        <div class="skill-tag"><i class="fas fa-seedling"></i> React (exploring)</div>
+        <div class="skill-tag"><i class="fas fa-seedling"></i> Open Source</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <p class="section-label">Projects</p>
+    <h2 class="section-title">Things I've Built</h2>
+    <p class="section-sub">Real projects with live demos — built with hands-on learning.</p>
+    <div class="projects-grid">
+      
+      <div class="project-card">
+        <div class="project-emoji">🖥️</div>
+        <h3>Landing Page</h3>
+        <p>Beginner-friendly page focusing on layout and design fundamentals, built during OIBSIP internship.</p>
+        <div class="project-tags"><span class="project-tag">HTML</span><span class="project-tag">CSS</span></div>
+        <div class="project-links"><a href="https://snehasoni321.github.io/OIBSIP_domain_taskno./Landing_Page/" target="_blank" class="project-link"><i class="fas fa-bolt"></i> Live</a></div>
+      </div>
+      <div class="project-card">
+        <div class="project-emoji">🌡️</div>
+        <h3>Temperature Converter</h3>
+        <p>Interactive web app to convert temperatures between Celsius, Fahrenheit, and Kelvin with instant results.</p>
+        <div class="project-tags"><span class="project-tag">HTML</span><span class="project-tag">CSS</span><span class="project-tag">JavaScript</span></div>
+        <div class="project-links"><a href="https://snehasoni321.github.io/OIBSIP_domain_taskno./temperature-converter/" target="_blank" class="project-link"><i class="fas fa-bolt"></i> Live</a></div>
+      </div>
+      <div class="project-card">
+        <div class="project-emoji">🍔</div>
+        <h3>Food Landing Page</h3>
+        <p>A simple and responsive landing page with beginner-friendly design, clean layout and modern styling.</p>
+        <div class="project-tags"><span class="project-tag">HTML</span><span class="project-tag">CSS</span></div>
+        <div class="project-links"><a href="https://snehasoni321.github.io/food-landing-page-html-css/" target="_blank" class="project-link"><i class="fas fa-bolt"></i> Live</a></div>
+      </div>
+      <div class="project-card">
+        <div class="project-emoji">📝</div>
+        <h3>To-Do List App</h3>
+        <p>Task manager with add, delete, and complete features. Data persists using browser's local storage.</p>
+        <div class="project-tags"><span class="project-tag">HTML</span><span class="project-tag">CSS</span><span class="project-tag">JavaScript</span></div>
+        <div class="project-links"><a href="https://snehasoni321.github.io/To-Do-List/" target="_blank" class="project-link"><i class="fas fa-bolt"></i> Live</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+  <div class="container">
+    <p class="section-label">Certifications</p>
+    <h2 class="section-title">Achievements & Courses</h2>
+    <p class="section-sub">Verified certificates from recognized programs and organizations.</p>
+    <div class="cert-grid">
+      <div class="cert-card">
+        <div class="cert-issuer-badge"><i class="fas fa-award"></i> IBM SkillsBuild × CSRBOX</div>
+        <h3>Front End Web Development</h3>
+        <div class="cert-meta">Project Based Learning · July – August 2025</div>
+        <div class="cert-skills">
+          <span class="cert-skill">HTML</span><span class="cert-skill">CSS</span><span class="cert-skill">JavaScript</span>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-issuer-badge"><i class="fas fa-award"></i> Hewlett Packard · Forage</div>
+        <h3>Software Engineering Job Simulation</h3>
+        <div class="cert-meta">Certificate of Completion · March 26, 2025</div>
+        <div class="cert-skills">
+          <span class="cert-skill">RESTful APIs</span><span class="cert-skill">Web Services</span><span class="cert-skill">Unit Tests</span>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-issuer-badge"><i class="fas fa-award"></i> NxtWave</div>
+        <h3>AI for Students: Build Your Own Generative AI Model</h3>
+        <div class="cert-meta">Workshop · June 29, 2024</div>
+        <div class="cert-skills">
+          <span class="cert-skill">Generative AI</span><span class="cert-skill">AI Concepts</span>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-issuer-badge"><i class="fas fa-award"></i> MathWorks</div>
+        <h3>MATLAB Onramp</h3>
+        <div class="cert-meta">100% Complete · October 10, 2024</div>
+        <div class="cert-skills">
+          <span class="cert-skill">MATLAB</span><span class="cert-skill">Data Analysis</span><span class="cert-skill">Programming</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="container">
+    <p class="section-label">Experience</p>
+    <h2 class="section-title">Work History</h2>
+    <p class="section-sub">Real-world internship experience in web development.</p>
+    <div class="divider"></div>
+    <div class="exp-card">
+      <div class="exp-header">
+        <div>
+          <div class="exp-role">Web Development & Designing Intern</div>
+          <div class="exp-company">Oasis Infobyte · AICTE OIB-SIP Program</div>
+        </div>
+        <div class="exp-duration">1 Month</div>
+      </div>
+      <ul class="exp-list">
+        <li>Developed a Landing Page using HTML & CSS</li>
+        <li>Built a Portfolio Website using HTML & CSS</li>
+        <li>Created a Temperature Converter using HTML, CSS & JavaScript</li>
+        <li>Gained hands-on experience in frontend development and JavaScript logic</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <p class="section-label">About Me</p>
+    <h2 class="section-title">Who I Am</h2>
+  
+    <div class="about-grid">
+      <div class="about-avatar-wrap">
+        <img class="about-avatar" src="image.jpeg" alt="Sneha Soni" />
+      </div>
+      <div class="about-text">
+        <p>Hey! I'm <strong>Sneha Soni</strong>, a B.Tech student with a passion for building things on the web. I believe in learning by doing — every project I've built has taught me something new.</p>
+        <p>Currently exploring <strong>HTML, CSS, JavaScript, Java</strong>, and diving deeper into <strong>Data Structures & Algorithms</strong>. I've completed an internship at <strong>Oasis Infobyte</strong> under the AICTE OIB-SIP program where I got real frontend experience.</p>
+        <p>When I'm not coding, I'm exploring open source and trying to grow as a developer every single day. I'm actively looking for <strong>internship and entry-level opportunities</strong>!</p>
+        <a href="#contact" class="about-resume"><i class="fas fa-download"></i> Download Resume</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <p class="section-label">Get In Touch</p>
+    <h2 class="section-title">Let's Connect</h2>
+    <p class="section-sub">Have an opportunity or just want to say hi? My inbox is always open.</p>
+    <div class="contact-grid">
+      <div class="contact-info-card">
+        <h3>Let's Connect</h3>
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+          <div class="contact-item-text">
+            <span>Email</span>
+            <a href="mailto:snehasoni598@gmail.com">snehasoni598@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+          <div class="contact-item-text">
+            <span>LinkedIn</span>
+            <a href="https://www.linkedin.com/in/sneha-soni-b8288a356" target="_blank">Sneha Soni</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fab fa-github"></i></div>
+          <div class="contact-item-text">
+            <span>GitHub</span>
+            <a href="https://github.com/snehasoni321" target="_blank">snehasoni321</a>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form-card">
+        <h3>Contact Me</h3>
+        <div class="form-group"><label>Name</label><input type="text" /></div>
+        <div class="form-group"><label>Email</label><input type="email"/></div>
+        <div class="form-group"><label>How can I help you?</label><textarea></textarea></div>
+        <div class="form-check">
+          <input type="checkbox" id="consent" />
+          <label for="consent">I understand that my name, email, and message will be used to contact me.</label>
+        </div>
+        <button class="btn-send"><i class="fas fa-paper-plane"></i> Send Message</button>
+      </div>
+    </div>
+    <div class="hire-banner">
+      <h2>Hire Me 🚀</h2>
+      <p>Open to internships, freelance projects, and entry-level frontend roles. Let's build something great together!</p>
+      <a href="mailto:snehasoni598@gmail.com" class="btn btn-primary"><i class="fas fa-envelope"></i> Contact Me</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-socials">
+    <a href="https://www.linkedin.com/in/sneha-soni-b8288a356" target="_blank" class="footer-social linkedin" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://github.com/snehasoni321" target="_blank" class="footer-social github" title="GitHub"><i class="fab fa-github"></i></a>
+    <a href="https://x.com/SSoni6107" target="_blank" class="footer-social twitter" title="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+    <a href="mailto:snehasoni598@gmail.com" class="footer-social mail" title="Email"><i class="fas fa-envelope"></i></a>
+  </div>
+  <p class="footer-copy">© 2026 <span>Sneha Soni</span></p>
+  <p class="footer-built">Built with ❤️ using HTML · CSS · JavaScript</p>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>
