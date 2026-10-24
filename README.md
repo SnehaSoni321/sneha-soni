@@ -5,6 +5,8 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
+🚀 **Live Demo:** https://snehasoni321.github.io/sneha-soni/
+
 A polished, responsive portfolio website built with plain HTML, CSS, and JavaScript. It highlights projects, certifications, experience, and contact details in a modern one-page layout.
 
 ## ✨ What’s Included
