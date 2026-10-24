@@ -41,7 +41,7 @@ navLinks.querySelectorAll('a').forEach(link => {
   });
 });
 
-const words = ['Web Developer', 'Frontend Developer', 'DSA Learner', 'IBM Certified', 'Open Source Enthusiast'];
+const words = ['MERN Stack Developer', 'Full Stack Developer', 'React Developer', 'DSA Learner', 'Open Source Enthusiast'];
 let wordIndex = 0;
 let charIndex = 0;
 let deleting = false;
